@@ -1,0 +1,27 @@
+body{
+    background-image: url("https://media.timeout.com/images/106041640/1024/768/image.webp");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+#clock-contaner{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    
+}
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(204, 180, 44);
+    padding-top: 150px;
+    backdrop-filter: blur(8px);
+    background-color: hsla(69, 87%, 91%, 0.4);
+    width: 100%;
+
+}
